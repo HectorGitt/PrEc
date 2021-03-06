@@ -1,6 +1,6 @@
-$(window).on("load", function() {
-    setTimeout(function(){
-        $(".loader").slideUp("slow");
-    }, 0)
+$(document).ready(function(){
+
+    $(".sec").text("20");
     
-});
+    
+ });
